@@ -65,7 +65,7 @@ static WebKitFindOptions findopts = WEBKIT_FIND_OPTIONS_CASE_INSENSITIVE |
 
 /* SETPROP(readprop, setprop, prompt)*/
 #define SETPROP(r, s, p) { \
-        .v = (char *[]){ "/bin/sh", "-c", "/home/n/apps/surf/scripts/bmark_history.ts $0 $1 $2", r, s, winid, NULL } \
+        .v = (char *[]){ "/bin/sh", "-c", "../scripts/bmark_history.ts $0 $1 $2", r, s, winid, NULL } \
 }
 
 /* DOWNLOAD(URI, referer) */
